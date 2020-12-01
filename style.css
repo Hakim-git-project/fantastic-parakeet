@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: sans-serif;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#navbar{
+    background-color: crimson;
+    color: aqua;
+    overflow: auto;
+}
+
+#navbar a{
+    color: aqua;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 25px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display:inline-block;
+    padding: 27px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current{
+background-color: aquamarine;
+    color:gold;
+}
+
+.cont{
+    max-width: 1100px;
+    margin:inherit;
+}
+
+.clr{
+    clear: both;
+}
+
+.text-primary{
+    color: gold;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    color: crimson;
+    background-color: aqua;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: gold;
+    color: aqua;
+}
+
+.bg-crimson{
+    background-color: crimson;
+    color: gold;
+}
+
+.bg-white{
+    background-color: whitesmoke;
+    color: gold;
+}
+
+#first{
+    height: 250px;
+}
+
+#first .first-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+#first .first-content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 75px;
+    padding-right: 20%;
+}
+
+#second{
+    height: 250px;
+}
+
+#second .second-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#second .second-content{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 75px;
+    padding-left: 20%;
+}
+
